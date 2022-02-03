@@ -34,7 +34,6 @@ export default function Post(props) {
                     {props.post?.desc}
                 </span>
                 <img src={props.post.photo} alt="" className="postImg" />
-
             </div>
             <div className="postBottom">
                 <div className="postBottomLeft">
